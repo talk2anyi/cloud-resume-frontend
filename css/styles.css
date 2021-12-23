@@ -107,7 +107,9 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #343a40;
+  color: #107deb;
+  /*! color:#343a40
+  */
 }
 
 h1, .h1 {
@@ -241,7 +243,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #974a2d;
+  color:  #974a2d;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3472,11 +3474,14 @@ textarea.form-control-lg {
 
 .btn-link {
   font-weight: 400;
+  
   color: #bd5d38;
   text-decoration: underline;
 }
 .btn-link:hover {
+  
   color: #974a2d;
+  
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
