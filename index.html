@@ -26,10 +26,10 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certification">Certification</a></li> 
                 </ul>
             </div>
@@ -51,8 +51,8 @@
                         </p>
                     </div>
                     <p class="lead mb-5">
-                        I'm a Web developer, Cloud computing and DevOps enthuasiast. 
-                        A self motivated and passionate individual dedidcated to learning new technologies and upscaling current skill sets.
+                        I'm a Certified AWS Solutions Architect, Cloud Engineer and Cloud DevOps Engineer with experince working with various AWS cloud services. 
+                        A self motivated and passionate individual dedidcated to learning new technologies and upscaling current skill sets in cloud computing.
                     </p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/ifeanyi-chude-4b17031b6/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
@@ -65,6 +65,123 @@
                     <p class="lead mb-5">
                         Resume Views : <span id="loadcount"></span> <br/> 
                     </p>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3"> AWS </div>
+                            <div>
+                                <ul class="lead mb-5">
+                                  <li>Security,Identity, & Compliance: IAM, Cognito</li>
+                                  <li>Compute: EC2, Lambda, Elastic Beanstalk</li>
+                                  <li>Storage: S3, Glacier, Storage Gateway</li>
+                                  <li>Database: RDS, DynamoDB</li>
+                                  <li>Networking & Content Delivery: VPC, CloudFront, Route 53, API Gateway</li>
+                                  <li>Management & Governance: AWS Organizations, CloudWatch, CloudFormation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">Infrastructure Management</div>
+                            <div>
+                                <ul class="lead mb-5">
+                                  <li>Terraform</li>
+                                </ul>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">CI/CD</div>
+                            <div>
+                                <ul class="lead mb-5">
+                                  <li>Jenkins</li>
+                                  <li>Github Actions</li>
+                                </ul>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                         <!----   <h3 class="mb-0">Junior Web Designer</h3>  ---->
+                            <div class="subheading mb-3">Programming Languages</div>
+                            <div>
+                                <ul class="lead mb-5">
+                                  <li>Python</li>
+                                  <li>Html</li>
+                                  <li>CSS</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">Version Control</div>
+                            <div>
+                                <ul class="lead mb-5">
+                                  <li>Git and Github</li>
+                                </ul>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">OS</div>
+                            <div>
+                                <ul class="lead mb-5">
+                                  <li>Linux</li>
+                                  <li>Windows</li>
+                                </ul>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Cloud Resume Challenge</h3>
+                            <div class="subheading mb-3">Amazon S3, Amazon CloudFront, Amazon Route 53, AWS API Gateway, AWS SAM, AWS DynamoDB</div>
+                            <div>
+                                <ul class="lead mb-5">
+                                  <li>Deploy a static resume website on S3 and enable static web hosting on bucket.</li>
+                                  <li>Configure AWS cloudfront with OAI. </li>
+                                  <li>Create a Javascript code to make calls to the backend resoures: API Gateway, Dynamo DB, AWS Lambda.</li>
+                                  <li>Define and deploy backend resources as Infrastructure as code.  </li>
+                                  <li>Setup CI/CD using Github actions(github workflow) for both frontend and backend. </li>
+                                </ul>
+                                <p> Github - <a href="https://github.com/talk2anyi/cloud-resume-frontend" target="_blank" rel="noopener noreferrer"> Here </a> 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Infrastructure Management with Terraform</h3>
+                            <div class="subheading mb-3">Managing AWS resources with Iac</div>
+                            <div>
+                                <ul class="lead mb-5">
+                                  <li>Deployed terraform scripts for setting up AWS cloud environment (VPC,Subnet,Security Groups,Ec2)</li>
+                                  
+                                </ul>
+                                <p> Github - <a href="https://github.com/talk2anyi/Building-a-dev-environment-with-Terraform" target="_blank" rel="noopener noreferrer"> Here </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <hr class="m-0" />
@@ -87,7 +204,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">May 2021 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2021 - February 2022</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -125,49 +242,7 @@
                     </div>
                 </div>
             </section>
-            <hr class="m-0" />    
-
-            <!-- Projects-->
-            <section class="resume-section" id="projects">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Cloud Resume Challenge</h3>
-                            <div class="subheading mb-3">Amazon S3, Amazon CloudFront, Amazon Route 53, AWS API Gateway, AWS SAM, AWS DynamoDB</div>
-                            <div>
-                                <ul class="lead mb-5">
-                                  <li>Deploy a static resume website on S3 and enable static web hosting on bucket.</li>
-                                  <li>Configure AWS cloudfront with OAI. </li>
-                                  <li>Create a Javascript code to make calls to the backend resoures: API Gateway, Dynamo DB, AWS Lambda.</li>
-                                  <li>Define and deploy backend resources as Infrastructure as code.  </li>
-                                  <li>Setup CI/CD using Github actions(github workflow) for both frontend and backend. </li>
-                                </ul>
-                                <p> Github - <a href="https://github.com/talk2anyi/cloud-resume-frontend" target="_blank" rel="noopener noreferrer"> Here </a> 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">AWS Cloud Hands on</h3>
-                            <div class="subheading mb-3">Guides on setting up different AWS services from the console</div>
-                            <div>
-                                <ul class="lead mb-5">
-                                  <li>Identity and Access management</li>
-                                  <li>Billing Alarms</li>
-                                  <li>Virtual Private cloud</li>
-                                  <li>Elastic Cloud Compute</li>
-                                  <li>AWS VPN</li>
-                                  <li>CloudFront Distribution</li>
-                                </ul>
-                                <p>Github - Here</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
+            <hr class="m-0" />   
 
             <!-- Education-->
             <section class="resume-section" id="education">
@@ -181,80 +256,7 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">October 2014 - November 2019</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Metropolitan College</h3>
-                            <div class="subheading mb-3">Senior Secondary Certificate Examination</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2008 - May 2014</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
 
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <div class="subheading mb-3"> AWS </div>
-                            <div>
-                                <ul class="lead mb-5">
-                                  <li>Security,Identity, & Compliance: IAM, Cognito</li>
-                                  <li>Compute: EC2, Lambda, Elastic Beanstalk</li>
-                                  <li>Storage: S3, Glacier, Storage Gateway</li>
-                                  <li>Database: RDS, DynamoDB</li>
-                                  <li>Networking & Content Delivery: VPC, CloudFront, Route 53, API Gateway</li>
-                                  <li>Management & Governance: AWS Organizations, CloudWatch, CloudFormation</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <div class="subheading mb-3">Configuration Management</div>
-                            <div>
-                                <ul class="lead mb-5">
-                                  <li>Terraform</li>
-                                </ul>
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                         <!----   <h3 class="mb-0">Junior Web Designer</h3>  ---->
-                            <div class="subheading mb-3">Programming Languages</div>
-                            <div>
-                                <ul class="lead mb-5">
-                                  <li>Python</li>
-                                  <li>Html</li>
-                                  <li>CSS</li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <div class="subheading mb-3">Version Control</div>
-                            <div>
-                                <ul class="lead mb-5">
-                                  <li>Git and Github</li>
-                                </ul>
-                            </div> 
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <div class="subheading mb-3">OS</div>
-                            <div>
-                                <ul class="lead mb-5">
-                                  <li>Linux</li>
-                                </ul>
-                            </div> 
-                        </div>
-                    </div>
                 </div>
             </section>
             <hr class="m-0" />
